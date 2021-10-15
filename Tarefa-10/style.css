@@ -1,0 +1,19 @@
+ul li a::before{
+  content: '\267F';
+}
+
+ul li a{
+  color: darkgreen;
+}
+
+ul li a:visited{
+  color: brown;
+}
+
+ul li a:hover{
+  color: yellow;
+}
+
+ul li a:active{
+  color: blue;
+}
