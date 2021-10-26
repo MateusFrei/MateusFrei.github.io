@@ -1,0 +1,60 @@
+*{
+  margin: 0;
+}
+
+h1{
+  margin: 5px;
+  background-color: grey;
+  color: white;
+}
+
+#menu{
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Genova, Verdana, sans-serif;
+
+  max-width: 145px;
+  height: 350px;
+  float: left;
+
+  border-right: 2px solid black;
+  padding-right: 10px;
+  margin: 0px 10px;
+
+}
+
+#menu ul{
+  padding: 0;
+
+}
+
+#menu ul li:hover{
+  background-image: url('Sprite_g.jpg');
+}
+
+#menu ul li a:link{
+  color: black;
+  text-decoration: none;
+
+}
+
+#menu ul li{
+  background-color: #e2e2e2;
+  display: block;
+  padding: 15px 20px 15px 20px;
+  border-bottom: 1px solid #fff;
+}
+
+#principal{
+  margin: auto;
+  max-width: 80%
+}
+
+p{
+  margin: auto;
+  padding: 5px 0px;
+
+}
+
+footer{
+  background-color: grey;
+  color: darkgrey;
+}

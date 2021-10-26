@@ -5,7 +5,7 @@
 #horizontal{
   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Genova, Verdana, sans-serif;
   background-color: #e2e2e2;
-  max-width: 390px;
+
 }
 
 #horizontal ul{
@@ -32,7 +32,7 @@
 #vertical{
   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Genova, Verdana, sans-serif;
   background-color: #e2e2e2;
-  max-width: 145px;
+
 }
 
 #vertical ul{
