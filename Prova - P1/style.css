@@ -1,0 +1,166 @@
+*{
+  margin-top: 0;
+}
+
+.grid{
+  display: grid;
+  justify-content: center;
+  border: 3px solid red;
+  grid-template-areas:
+   "topoEsq topoNav topoNav"
+   "bodygrid news ad"
+   "bodygrid newsticker ad"
+   "popular letters ad";
+}
+
+.ad{
+  display: grid;
+}
+
+.ad img{
+  width: 250px;
+  border: solid black 2px;
+  height: auto;
+}
+
+.imag{
+  width: 150px;
+  height: auto;
+  border: solid black 2px;
+}
+
+.topoEsq img{
+  width: 130px;
+  height: auto;
+  border: 2px solid black;
+}
+.esq img{
+  width: 130px;
+  height: auto;
+  border: solid 3px black;
+}
+
+.topoNav{
+  text-align: right;
+  display: grid;
+  grid-area: topoNav;
+  border: 2px solid black;
+}
+.menu1 ul li{
+  border-right: 1px solid red;
+  display: inline;
+  padding: 15px;
+}
+
+.botao{
+  margin: 30px;
+  padding: 5px;
+
+}
+
+.botao :first-child{
+  margin: 0 20px;
+}
+
+.menu2 ul li{
+  padding: 3px;
+  margin: 2px;
+  border: solid 3px black;
+}
+.menu2 ul li a{
+  text-decoration: none;
+}
+
+.mid ul li a{
+  text-decoration: none;
+}
+
+.mid ul li{
+  border: solid 2px black;
+}
+.bodygrid{
+  display: grid;
+  justify-content: center;
+  grid-template-areas:
+  "mid" "dir" "dir";
+}
+
+.mid ul{
+  margin: 0px;
+  padding: 0px;
+}
+
+.mid ul li{
+  list-style-type: none;
+}
+
+.popular ul {
+  margin: 2px;
+  padding: 0px;
+  border: solid 3px black;
+  background-color: darkgrey;
+}
+
+.popular ul li{
+  list-style-type: none;
+}
+
+.news{
+  display: grid;
+  grid-area: news;
+  border: 2px solid black;
+  grid-template-areas:
+  "what info";
+
+}
+
+.imagen{
+  text-align: left;
+}
+
+.info{
+  text-align: right;
+}
+
+.news img{
+  width: 130px;
+  height: auto;
+  border: solid 2px black;
+}
+
+.newsticker{
+  grid-area: newsticker;
+  display: grid;
+  border: 2px solid black;
+  grid-template-areas:
+  "sticker men";
+}
+
+.men{
+  text-align: center;
+}
+.letters{
+  grid-area: letters;
+  display: grid;
+  border: 2px solid black;
+  grid-template-areas:
+  "notice not";
+}
+
+.not{
+  text-align: center;
+}
+
+.footer{
+  border: solid 2px black;
+  display: grid;
+  grid-template-areas:
+  "man top departament";
+}
+
+.departament{
+  text-align: right;
+}
+.footer ul li{
+  display: inline;
+}
