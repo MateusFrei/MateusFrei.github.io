@@ -1,12 +1,12 @@
-var number = window.prompt('Digite um número')
+var number = window.prompt('Digite um número ')
 
 function fatorial(number){
-  var result = number;
+  var aux = number;
 
   for (var i = 1; i < number; i++) {
-      result *= i;
+      aux *= i;
   }
-  	return result;
+  	return aux;
 }
 
-alert('O fatorial de '+ number+' é: '+fatorial(number));
+alert('O fatorial de: '+ number +' é de : '+fatorial(number));
