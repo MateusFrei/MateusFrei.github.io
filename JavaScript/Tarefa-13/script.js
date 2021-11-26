@@ -1,13 +1,16 @@
-let numero = window.prompt('Digite um número')
+var palavra = window.prompt('Digite uma palavra para saber se é palíndromo.')
+var compara = palavra.split('').reverse().join('')
 
-function oddeven(numero){
-  if (numero % 2 == 0) {
-    return 1;
-  }
-  return 0;
+
+function palindromo(palavra){
+   if(palavra !== compara){
+     return 1;
+   }
+   return 0;
 }
-if (oddeven(numero) == 1) {
-  alert('É um numero Par')
+
+if (palindromo(palavra)==1) {
+  alert('Não é palindromo')
 }else {
-  alert('É um numero Impar')
+  alert('É um palindromo')
 }

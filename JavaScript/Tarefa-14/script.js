@@ -1,12 +1,13 @@
-var number = window.prompt('Digite um número ')
+let numero = window.prompt('Digite um número')
 
-function fatorial(number){
-  var aux = number;
-
-  for (var i = 1; i < number; i++) {
-      aux *= i;
+function oddeven(numero){
+  if (numero % 2 == 0) {
+    return 1;
   }
-  	return aux;
+  return 0;
 }
-
-alert('O fatorial de: '+ number +' é de : '+fatorial(number));
+if (oddeven(numero) == 1) {
+  alert('É um numero Par')
+}else {
+  alert('É um numero Impar')
+}

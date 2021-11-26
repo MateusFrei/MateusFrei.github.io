@@ -1,7 +1,12 @@
+var number = window.prompt('Digite um número ')
 
-function validateEmail(email) {
-    var regex = /\S+@\S+\.\S+/;
-    var valid= regex.test(email);
+function fatorial(number){
+  var aux = number;
 
-   return valid ? alert('Email digitado é válido'): alert('Email digitado é inválido')
+  for (var i = 1; i < number; i++) {
+      aux *= i;
   }
+  	return aux;
+}
+
+alert('O fatorial de: '+ number +' é de : '+fatorial(number));
