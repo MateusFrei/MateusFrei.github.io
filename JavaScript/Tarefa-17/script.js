@@ -11,5 +11,6 @@ function verifica(Quantidade_Dias, Quantidade_Meses, Quantidade_Anos) {
   var DiaR = Math.abs(Quantidade_Dias - dia)
   var MesR = Math.abs(Quantidade_Meses - mes)
   var AnoR = Math.abs(Quantidade_Anos - ano)
-  alert(AnoR.toFixed() + " Anos " + MesR.toFixed() + " Meses " + DiaR.toFixed() + " Dias");
+
+  alert(AnoR.toFixed() + " Anos " + MesR.toFixed() + " Meses " + DiaR.toFixed() + " Dias")
 }
